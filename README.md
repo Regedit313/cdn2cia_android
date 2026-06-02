@@ -40,16 +40,16 @@ Place one CDN folder per game inside "auto_in/".
 Example:
 
 auto_in/
-|-- game1/
-|   |-- 00000000
-|   |-- 00000001
-|   |-- 00000002
-|   |-- tmd.0
-|   `-- tmd.1040
-`-- game2/
-    |-- 00000000
-    |-- 00000001
-    `-- tmd.0
+-- game1/
+---- 00000000
+---- 00000001
+---- 00000002
+---- tmd.0
+---- tmd.1040
+-- game2/
+---- 00000000
+---- 00000001
+---- tmd.0
 
 
 ## Output
@@ -59,8 +59,8 @@ Converted .CIA files will be created in "auto_out/".
 Example:
 
 auto_out/
-|-- game1.cia
-`-- game2.cia
+-- game1.cia
+-- game2.cia
 
 
 ## Folder Structures
@@ -68,43 +68,43 @@ auto_out/
 ### Folder Structure Before Running cdn2cia.sh
 
 cdn2cia_android/
-|-- README.md
-|-- original_ntool.md
-|-- ntool.py
-|-- cdn2cia_setup.sh
-|-- cdn2cia.sh
-|-- offline/
-|   `-- pycryptodomex-3.23.0.tar.gz
-|-- auto_in/
-|   |-- game1/
-|   |   |-- 00000000
-|   |   |-- 00000001
-|   |   |-- 00000002
-|   |   |-- tmd.0
-|   |   `-- tmd.1040
-|   `-- game2/
-|       |-- 00000000
-|       |-- 00000001
-|       `-- tmd.0
-|-- auto_out/
-`-- cdn_folder/
+-- README.md
+-- original_ntool.md
+-- ntool.py
+-- cdn2cia_setup.sh
+-- cdn2cia.sh
+-- offline/
+---- pycryptodomex-3.23.0.tar.gz
+-- auto_in/
+---- game1/
+------ 00000000
+------ 00000001
+------ 00000002
+------ tmd.0
+------ tmd.1040
+---- game2/
+------ 00000000
+------ 00000001
+------ tmd.0
+-- auto_out/
+-- cdn_folder/
 
 
 ### Folder Structure After Running cdn2cia.sh
 
 cdn2cia_android/
-|-- README.md
-|-- original_ntool.md
-|-- ntool.py
-|-- cdn2cia_setup.sh
-|-- cdn2cia.sh
-|-- offline/
-|   `-- pycryptodomex-3.23.0.tar.gz
-|-- auto_in/
-|-- auto_out/
-|   |-- game1.cia
-|   `-- game2.cia
-`-- cdn_folder/
+-- README.md
+-- original_ntool.md
+-- ntool.py
+-- cdn2cia_setup.sh
+-- cdn2cia.sh
+-- offline/
+---- pycryptodomex-3.23.0.tar.gz
+-- auto_in/
+-- auto_out/
+---- game1.cia
+---- game2.cia
+-- cdn_folder/
 
 
 ## Notes
