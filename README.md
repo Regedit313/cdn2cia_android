@@ -41,25 +41,25 @@ Example:
 
 auto_in/
 
--- game1/
+---- game1/
 
----- 00000000
+-------- 00000000
 
----- 00000001
+-------- 00000001
 
----- 00000002
+-------- 00000002
 
----- tmd.0
+-------- tmd.0
 
----- tmd.1040
+-------- tmd.1040
 
--- game2/
+---- game2/
 
----- 00000000
+-------- 00000000
 
----- 00000001
+-------- 00000001
 
----- tmd.0
+-------- tmd.0
 
 
 ## Output
@@ -70,9 +70,9 @@ Example:
 
 auto_out/
 
--- game1.cia
+---- game1.cia
 
--- game2.cia
+---- game2.cia
 
 
 ## Folder Structures
@@ -81,74 +81,74 @@ auto_out/
 
 cdn2cia_android/
 
--- README.md
+---- README.md
 
--- original_ntool.md
+---- original_ntool.md
 
--- ntool.py
+---- ntool.py
 
--- cdn2cia_setup.sh
+---- cdn2cia_setup.sh
 
--- cdn2cia.sh
+---- cdn2cia.sh
 
--- offline/
+---- offline/
 
----- pycryptodomex-3.23.0.tar.gz
+-------- pycryptodomex-3.23.0.tar.gz
 
--- auto_in/
+---- auto_in/
 
----- game1/
+-------- game1/
 
------- 00000000
+------------ 00000000
 
------- 00000001
+------------ 00000001
 
------- 00000002
+------------ 00000002
 
------- tmd.0
+------------ tmd.0
 
------- tmd.1040
+------------ tmd.1040
 
----- game2/
+-------- game2/
 
------- 00000000
+------------ 00000000
 
------- 00000001
+------------ 00000001
 
------- tmd.0
+------------ tmd.0
 
--- auto_out/
+---- auto_out/
 
--- cdn_folder/
+---- cdn_folder/
 
 
 ### Folder Structure After Running cdn2cia.sh
 
 cdn2cia_android/
 
--- README.md
+---- README.md
 
--- original_ntool.md
+---- original_ntool.md
 
--- ntool.py
+---- ntool.py
 
--- cdn2cia_setup.sh
+---- cdn2cia_setup.sh
 
--- cdn2cia.sh
+---- cdn2cia.sh
 
--- offline/
+---- offline/
 
----- pycryptodomex-3.23.0.tar.gz
+-------- pycryptodomex-3.23.0.tar.gz
 
--- auto_in/
+---- auto_in/
 
--- auto_out/
+---- auto_out/
 
----- game1.cia
+-------- game1.cia
 
----- game2.cia
+-------- game2.cia
 
--- cdn_folder/
+---- cdn_folder/
 
 
 ## Notes
