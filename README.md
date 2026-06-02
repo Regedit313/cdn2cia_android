@@ -40,15 +40,25 @@ Place one CDN folder per game inside "auto_in/".
 Example:
 
 auto_in/
+
 game1/
+
 00000000
+
 00000001
+
 00000002
+
 tmd.0
+
 tmd.1040
+
 game2/
+
 00000000
+
 00000001
+
 tmd.0
 
 
