@@ -41,6 +41,7 @@ Example:
 
 auto_in/
 
+
 game1/
 
 00000000
@@ -52,6 +53,7 @@ game1/
 tmd.0
 
 tmd.1040
+
 
 game2/
 
