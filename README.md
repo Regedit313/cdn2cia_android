@@ -22,7 +22,7 @@ bash ~/storage/shared/cdn2cia_android/cdn2cia.sh
 
 For the first use, before using any other menu option, select:
 
-9) Run first-time setup (required before first use)
+9 = Run first-time setup (required before first use)
 
 When prompted, choose:
 
