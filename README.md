@@ -26,9 +26,9 @@ For the first use, before using any other menu option, select:
 
 When prompted, choose:
 
-1) Online installation (recommended)
+1 = Online installation (recommended)
 
-2) Offline installation (requires a pycryptodomex*.tar.gz file in the offline folder)
+2 = Offline installation (requires a pycryptodomex*.tar.gz file in the offline folder)
 
 This step installs all required dependencies and prepares the project folders.
 
@@ -38,18 +38,18 @@ The first-time setup must be completed before using any other menu option.
 
 7. Select:
 
-1) Convert CDN folders to .CIA
+1 = Convert CDN folders to .CIA
 
 
 ## Menu
 
 When started, cdn2cia.sh provides the following options:
 
-1) Convert CDN folders to .CIA
+1 = Convert CDN folders to .CIA
 
-9) Run first-time setup (required before first use)
+9 = Run first-time setup (required before first use)
 
-0) Exit
+0 = Exit
 
 
 ## Input
