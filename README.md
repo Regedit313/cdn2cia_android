@@ -26,9 +26,9 @@ For the first use, before using any other menu option, select:
 
 When prompted, choose:
 
-[1] = Online installation (recommended)
+1) Online installation (recommended)
 
-[2] = Offline installation (requires a pycryptodomex*.tar.gz file in the offline folder)
+2) Offline installation (requires a pycryptodomex*.tar.gz file in the offline folder)
 
 This step installs all required dependencies and prepares the project folders.
 
