@@ -138,8 +138,6 @@ cdn2cia_android/
 
 ---- auto_out/
 
----- cdn_folder/
-
 
 ### Folder Structure After Running cdn2cia.sh
 
@@ -167,8 +165,6 @@ cdn2cia_android/
 
 -------- game2.cia
 
----- cdn_folder/
-
 
 ## Notes
 
@@ -177,8 +173,6 @@ The required folders are created during the first-time setup and are automatical
 "auto_in/" is automatically cleaned when a game is successfully converted.
 
 "auto_out/" contains the final .CIA files.
-
-"cdn_folder/" is used as a temporary working directory and is automatically cleaned after processing.
 
 If a conversion fails, the corresponding game folder remains in "auto_in/" for troubleshooting.
 
