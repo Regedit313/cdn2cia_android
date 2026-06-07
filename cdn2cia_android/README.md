@@ -20,7 +20,7 @@ bash ~/storage/shared/cdn2cia_android/cdn2cia.sh
 
 5. IMPORTANT:
 
-For the first use, before using any other menu option, select:
+For the first use, before the first conversion, select:
 
 9 = Run first-time setup (required before first use)
 
@@ -32,7 +32,7 @@ When prompted, choose:
 
 This step installs all required dependencies and prepares the project folders.
 
-The first-time setup must be completed before using any other menu option.
+The first-time setup must be completed before the first conversion.
 
 6. Copy one or more game CDN folders into "auto_in/".
 
@@ -93,10 +93,12 @@ auto_out/
 
 ---- game2.cia
 
+Successfully converted game folders are automatically removed from auto_in/.
+
 
 ## Folder Structures
 
-### Folder Structure Before Running cdn2cia.sh
+### Folder Structure Before Conversion
 
 cdn2cia_android/
 
@@ -139,7 +141,7 @@ cdn2cia_android/
 ---- auto_out/
 
 
-### Folder Structure After Running cdn2cia.sh
+### Folder Structure After Conversion
 
 cdn2cia_android/
 
@@ -168,7 +170,7 @@ cdn2cia_android/
 
 ## Notes
 
-The required folders are created during the first-time setup and are automatically recreated when launching cdn2cia.sh if they do not already exist.
+The required folders are automatically created if they do not already exist.
 
 "auto_in/" is automatically cleaned when a game is successfully converted.
 
