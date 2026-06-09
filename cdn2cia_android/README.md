@@ -34,12 +34,15 @@ This step installs all required dependencies and prepares the project folders.
 
 The first-time setup must be completed before the first conversion.
 
-6. Copy one or more game CDN folders into "auto_in/".
+6. Copy one or more game CDN folders into:
+
+auto_in/
 
 7. Select:
 
 1 = Convert CDN folders to .CIA
 
+---
 
 ## Menu
 
@@ -51,10 +54,31 @@ When started, cdn2cia.sh provides the following options:
 
 0 = Exit
 
+---
+
+## Convert CDN Folders to .CIA
+
+Place one game CDN folder per game inside:
+
+auto_in/
+
+When option 1 is selected, the script automatically:
+
+- Copies the CDN contents to a temporary working folder
+- Converts the CDN data to a .CIA file using NTool
+- Creates the final .CIA file in auto_out/
+- Removes successfully converted game folders from auto_in/
+- Cleans temporary files automatically
+
+Multiple game folders can be converted in a single operation.
+
+---
 
 ## Input
 
-Place one game CDN folder per game inside "auto_in/".
+Place one game CDN folder per game inside:
+
+auto_in/
 
 Example:
 
@@ -80,10 +104,13 @@ auto_in/
 
 -------- tmd.0
 
+---
 
 ## Output
 
-Converted .CIA files will be created in "auto_out/".
+Converted .CIA files are created in:
+
+auto_out/
 
 Example:
 
@@ -95,6 +122,7 @@ auto_out/
 
 Successfully converted game folders are automatically removed from auto_in/.
 
+---
 
 ## Folder Structures
 
@@ -108,9 +136,9 @@ cdn2cia_android/
 
 ---- ntool.py
 
----- cdn2cia_setup.sh
-
 ---- cdn2cia.sh
+
+---- cdn2cia_setup.sh
 
 ---- offline/
 
@@ -140,6 +168,7 @@ cdn2cia_android/
 
 ---- auto_out/
 
+---
 
 ### Folder Structure After Conversion
 
@@ -151,9 +180,9 @@ cdn2cia_android/
 
 ---- ntool.py
 
----- cdn2cia_setup.sh
-
 ---- cdn2cia.sh
+
+---- cdn2cia_setup.sh
 
 ---- offline/
 
@@ -167,27 +196,34 @@ cdn2cia_android/
 
 -------- game2.cia
 
+---
 
 ## Notes
 
 The required folders are automatically created if they do not already exist.
 
-"auto_in/" is automatically cleaned when a game is successfully converted.
+Successfully converted game folders are automatically removed from auto_in/.
 
-"auto_out/" contains the final .CIA files.
+If a conversion fails, the corresponding game folder remains in auto_in/ for troubleshooting.
 
-If a conversion fails, the corresponding game folder remains in "auto_in/" for troubleshooting.
+Temporary working folders are automatically created only when needed and are automatically removed when conversion is finished.
 
-"README.md" contains the Android/Termux guide for CDN to .CIA conversion.
+Temporary Python cache folders (__pycache__) are automatically removed after conversion.
 
-"original_ntool.md" contains the original NTool documentation and advanced commands.
+auto_out/ contains the final .CIA files.
 
+README.md contains the Android/Termux guide for CDN to .CIA conversion.
+
+original_ntool.md contains the original NTool documentation and advanced commands.
+
+---
 
 ## Credits
 
 This project is based on ntool by Kc57.
 
 Original repository:
+
 https://github.com/Kc57/ntool
 
 This repository provides an Android/Termux setup and automated CDN to .CIA conversion workflow.
